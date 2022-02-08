@@ -1,147 +1,4 @@
-    1  ls
-    2  ssh-keygen
-    3  ssh-keygen
-    4  ssh-keygen
-    5  ssh-keygen
-    6  cat .ssh/id_rsa.pub
-    7  ~/.ssh/id_rsa.pub
-    8  git clone https://github.com/SayaliMagar/sayalimagar.prac.io.git
-    9  git --version
-   10  git clone https://github.com/SayaliMagar/sayalimagar.prac.io.git
-   11  git config --global user.name 'SayaliMagar'
-   12  git config --global user.email 'sayalimagar150@gmail.com'
-   13  git status
-   14  git init
-   15  git clone https://github.com/SayaliMagar/sayalimagar.prac.io.git
-   16  touch main.cpp
-   17  cd sayalimagar.prac.io
-   18  touch main.cpp
-   19  git init
-   20  git config --global user.name 'SayaliMagar'
-   21  git config --global user.email 'sayalimagar150@mail.com'
-   22  git status
-   23  git add main.cpp
-   24  git status
-   25  git status
-   26  git add proOpencv
-   27  git status
-   28  git add .
-   29  git status
-   30  git commit -m 'Organised file'
-   31  git remote
-   32  git push
-   33  git pull
-   34  exit
-   35  git remote
-   36  git clone https://gitlab.iotiot.in/interns-projects/3d-depth-vision.git
-   37  exit
-   38  git clone https://github.com/SayaliMagar/sayalimagar.prac.io.git
-   39  touch disparity.cpp
-   40  cd sayalimagar.prac.io
-   41  touch disparity.cpp
-   42  touch CMakeLists.txt
-   43  git status
-   44  git add .
-   45  git branch mbranch
-   46  git status
-   47  git commit -m 'Another change'
-   48  git status
-   49  git checkout mbranch
-   50  git status
-   51  git add .
-   52  git status
-   53  git commit -m 'commit changes'
-   54  git status
-   55  git checkout main
-   56  git merge mbranch
-   57  git status
-   58  git push 
-   59  exit
-   60  git clone https://github.com/gflags/gflags.git
-   61  cd Downloads
-   62  gcc Unixsys.c
-   63  cd downloads
-   64  git config --list
-   65  clear
-   66  git init
-   67  git config --list
-   68  git config --list --global
-   69  git config --list --local
-   70  touch math2.py
-   71  git log ~2
-   72  git log -2
-   73  git log -p
-   74  git log --grep="Initial"
-   75  git log --author="sayalimagar150"
-   76  git log --since="01/21/2021"
-   77  git log --since="02/21/2021"
-   78  git log until="02/21/2019"
-   79  git log --until="02/21/2019"
-   80  git help --commit
-   81  git help
-   82  git log --help
-   83  git log
-   84  git commit --amend -m "commid + add function"
-   85  git log
-   86  git diff
-   87  git diff HEAD
-   88  git add math.py
-   89  git status
-   90  git diff
-   91  git diff HEAD
-   92  git diff
-   93  git diff HEAD
-   94  git status
-   95  git restore --staged math.py
-   96  git DIFF
-   97  git diff
-   98  git restore math.py
-   99  git commit -am "comment passed"
-  100  git log
-  101  git log --oneline
-  102  gir revert de8247e
-  103  git revert de8247e
-  104  git log 
-  105  git log --oneline
-  106  git status
-  107  git reset --hard 8e9c161
-  108  git log --oneline
-  109  touch .gitignore
-  110  touch setup.exe
-  111  touch project.log
-  112  touch event.log
-  113  git status
-  114  git status
-  115  git add *
-  116  git config advice.addIgnoreFile false
-  117  git add *
-  118  git status
-  119  git add .
-  120  git status
-  121  git commit -m "Added .gitignore file"
-  122  git mv README.txt README.md
-  123  git status
-  124  git commit -m "README file changed to .md"
-  125  git staus
-  126  git status
-  127  git commit -am "next chnge"
-  128  git add *
-  129  git commit -m "Next change"
-  130  PROMPT_COMMAND='history -a'
-  131  git status
-  132  touch fileTemp.py
-  133  git add .
-  134  git commit -m "Added new file to dlt"
-  135  git log --oneline
-  136  git status
-  137  git commit -am "Updated"
-  138  git status
-  139  git log --oneline
-  140  git revert aeb27f4
-  141  git revert 10e6004
-  142  git remote rm origin
-  143  git remote
-  144  git remote rm RemoteBranch
+
   145  git remote add origin https://github.com/SayaliMagar/TestRepo.git
   146  git remote
   147  git remote -v
@@ -150,7 +7,19 @@
   150  git clone https://github.com/SayaliMagar/TestRepo.git
   151  cd TestRepo
   152  git log --oneline
-  153  git fetch RemoteBranch
-  154  git branch master
-  155  git fetch main/RemoteBranch
-  156  history>>histor.txt
+  157  git remote
+  158  git remote rename origin RemoteBranch
+  159  git remote
+  160  git fetch RemoteBranch
+  161  git merge RemoteBranch/main --allow-unrelated-histories
+  162  git pull RemoteBranch
+  163  git log --oneline
+  164  git diff
+  165  git add .
+  166  git status
+  167  git commit -m "Change 3 in RemoteFile"
+  168  git log --oneline
+  169  git commit -am "Change 4 in RemoteFile"
+  170  git log --oneline
+  171  git push -u RemoteBranch main
+  172  history>>histor.txt
